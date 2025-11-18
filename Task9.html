@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <title>WebPage</title>
+
+        <style>
+
+             * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              }
+
+
+              body {
+                background-color: #f7f9fc;
+                color : black;
+                
+            }
+
+            .header-content {
+                background-color: #cb88ea;
+                color : white;
+                min-height: -1px;
+                padding : 30px;
+                text-align: center;
+              }
+
+             .navbar-logo {
+                font-size: 1rem;
+                font-weight: bold;
+              }
+
+            .navbar {
+                display : flex;
+                justify-content: space-between;
+                align-items : center;
+                margin-bottom : 1rem;
+              }
+
+            .navbar-links a{
+                color : white;
+                text-decoration: none;
+                margin-left : 1rem;
+                font-size: 1rem;
+              } 
+
+
+              .apply-btn {
+                background-color: #198bc9;
+                color : white;
+                padding : 0.6rem 1.5rem;
+                border-radius: 6px;
+                font-size : 1.0rem;
+                font-weight: bold;
+              }
+
+             .hero-section{
+              display: flex;
+              background-color: #6bffff;
+              grid-template-columns: 1fr 1fr;
+              padding: 70px 90px;
+              align-items: center;
+              gap: 20px;
+              }
+
+              .hero-text h1 {
+              font-size: 2.5rem;
+              color: #269900;
+              }
+
+              .hero-text p {
+               margin: 5px 0;
+               font-size: 1.1rem;
+              }
+
+               .info-btn {
+                  background: #f7b500;
+                  color :#333;
+                  padding: 12px 25px;
+                  border: none;
+                  border-radius: 3px;
+                  font-size: 1rem;
+                  font-weight: bold;
+                  cursor: pointer;
+                }
+
+                .image {
+                 grid: 1;
+                 height: 250px;
+                 border-radius: 8px;
+                }
+
+                
+                .programs {
+                text-align: center;
+                padding: 60px 40px;
+                background: #c2bfbf;
+                }
+
+                .programs h2 {
+                    font-size: 28px;
+                    margin-bottom: 40px;
+                }
+
+                .program-cards {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 25px;
+                    max-width: 900px;
+                    margin: auto;
+                }
+
+                .card {
+                    background: white;
+                    border-radius: 10px;
+                    padding-bottom: 20px;
+                    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+                    overflow: hidden;
+                }
+
+                .card .top {
+                    padding: 30px;
+                    color: white;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+
+                .engineering { background: #ff9d00; }
+                .business { background: #00b47d; }
+                .arts { background: #926bff; }
+
+
+                .card .content {
+                    padding: 20px;
+                    text-align: left;
+                }
+
+                .card .content a {
+                    color: #1a4fb7;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                .card .content h3 {
+                    color:#926bff;
+                    text-align: none;
+                }
+
+                    
+                .student-section {
+                    background: #f9f8f8;
+                    padding: 70px 50px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+
+                .student-box {
+                    background: #d4d480;
+                    color: white;
+                    padding: 80px;
+                    font-size: 28px;
+                    font-weight: bold;
+                    border-radius: 10px;
+                    width: 40%;
+                    text-align: center;
+                }
+
+                .campus {
+                    width: 40%;
+                }
+
+                .campus h3 {
+                    font-size: 24px;
+                    margin-bottom: 15px;
+                    color: #1a4fb7;
+                }
+
+                .campus ul {
+                    line-height: 1.8;
+                }
+                         
+
+              footer {
+            background: #e194dc;
+            color: blue;
+            padding: 40px 60px;
+            display: flex;
+            justify-content: space-between;
+            }
+
+            footer h4 {
+            margin-bottom: 10px;
+            }
+
+            footer ul {
+            list-style: none;
+            line-height: 1.8;
+            }
+
+            .copy {
+                  border-top: 1px solid #f0a3f0;
+                  color:#926bff;
+                  padding-top: 20px;
+                  padding-bottom: 20px;
+                  text-align: center;
+                  font-size: 0.8rem;
+            }
+
+              </style>
+              </head>
+
+
+        <body>
+            <header class = "header-content">
+            <nav class="navbar">
+            <div class="navbar-logo"> OPPTY TECHHUB PVT LIMITED </div>
+            <div class = "navbar-links">
+            <a href="#"> Home</a>
+            <a href="#"> Admissions</a>
+            <a href="#"> Academics </a>
+            <a href="#"> About Us </a>
+           </div>
+            <a href="#" class="apply-btn"> Apply Now </a>
+            </nav>
+        </header>
+
+           <main>
+            <section class="hero-section">
+            <div class="hero-text">
+                    <h1>Find Your Future at Springfield</h1>
+                    <p>Discover world-class programs and a vibrant campus community.</p>
+                    <button class="info-btn">Request Info</button>
+                </div>
+
+                <div class="image">
+                    <img src="C:\Users\venka\.vscode\Day9\Web.jpeg" alt="image web" class="image">
+                </div>
+            </section>
+
+
+            
+    <section class="programs">
+        <h2>Explore Our Programs</h2>
+
+        <div class="program-cards">
+            <div class="card">
+                <div class="top engineering">Engineering</div>
+                <div class="content">
+                    <h3>Engineering</h3>
+                    <p>Build the future with our top-ranked engineering programs.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="top business">Business</div>
+                <div class="content">
+                    <h3>Business & Mgmt</h3>
+                    <p>Lead the next generation of industry innovators.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="top arts">Arts & Science</div>
+                <div class="content">
+                    <h3>Arts & Sciences</h3>
+                    <p>Explore your passion from fine arts to molecular biology.</p>
+                    <a href="#">Learn More →</a>
+                </div>
+
+            </div>
+        </div>
+    
+    </section>
+
+        <section class="student-section">
+            <div class="student-box">Student Life</div>
+             <div class="campus">
+                    <h3>A Campus Built for You</h3>
+                    <p>Our commitment goes beyond the classroom. We provide state-of-the-art facilities, dedicated faculty, and a supportive network to help you succeed.</p><br>
+                    <ul>
+                        <li>
+                          <span>&#10003;</span>
+                          <span>95% job placement rate within 6 months of graduation.</span>
+                        </li>
+                        <li>
+                          <span>&#10003;</span>
+                          <span>15:1 student-to-faculty ratio for personalized attention.</span>
+                        </li>
+                        <li>
+                          <span>&#10003;</span>
+                          <span>Over 100 clubs and organizations to join.</span>
+                        </li>
+                      </ul>
+                </div>
+        </section>
+    </main>
+
+  <footer>
+        <div>
+            <h4>Springfield U.</h4>
+            <p>123 College Ave<br>Springfield, USA 12345<br>(555) 123-4567</p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li>Contact Us</li>
+                <li>Visit Campus</li>
+                <li>Directory</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Resources</h4>
+            <ul>
+                <li>Library</li>
+                <li>Faculty & Staff</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+    </footer>
+        <div class="copy">
+            <p>&copy; 2025 Springfield University. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
